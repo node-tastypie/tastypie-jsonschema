@@ -24,15 +24,17 @@
     "url": "https://github.com/esatterwhite/tastypie-jsonschema/issues"
   },
   "homepage": "https://github.com/esatterwhite/tastypie-jsonschema#readme",
+  "peerDependencies": {
+    "tastypie": "^2.0.3"
+  },
   "devDependencies": {
     "hapi": "^9.0.3",
     "joi": "^6.6.1",
     "mocha": "^2.2.5",
     "should": "^7.0.4",
-    "tastypie": "^2.0.2"
+    "tastypie": "^2.0.x"
   },
   "dependencies": {
-    "debug": "^2.2.0",
-    "install": "^0.1.8"
+    "debug": "^2.2.0"
   }
 }
