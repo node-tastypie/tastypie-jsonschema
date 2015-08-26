@@ -1,6 +1,6 @@
 {
   "name": "tastypie-jsonschema",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "JSONSchema mixin for tastypie resources",
   "main": "index.js",
   "scripts": {
