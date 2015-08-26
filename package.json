@@ -4,7 +4,7 @@
   "description": "JSONSchema mixin for tastypie resources",
   "main": "index.js",
   "scripts": {
-    "test": "node scripts/test"
+    "test": "mocha --reporter=spec test/"
   },
   "repository": {
     "type": "git",
@@ -28,13 +28,14 @@
     "tastypie": "^2.0.3"
   },
   "devDependencies": {
-    "hapi": "^9.0.3",
+    "hapi": "^8.8.0",
     "joi": "^6.6.1",
     "mocha": "^2.2.5",
     "should": "^7.0.4",
     "tastypie": "^2.0.x"
   },
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "hoek": "^2.14.0"
   }
 }
