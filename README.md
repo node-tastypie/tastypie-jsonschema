@@ -6,7 +6,7 @@ A Resource mixing that allows resources to generate json schema compliant schema
 var tastypie = require('tastypie');
 var JSONSchema = require('tastypie-jsonschema');
 var Resource = tastypie.Resource;
-var Hapi = require("hapi')
+var Hapi = require('hapi')
 var Api = tastypi.Api;
 var api, server;
 
