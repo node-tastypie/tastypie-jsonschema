@@ -1,5 +1,5 @@
 {
-  "name": "tastypie-jsonschema",
+  "name": "@tastypie/jsonschema",
   "version": "1.0.1",
   "description": "JSONSchema mixin for tastypie resources",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esatterwhite/tastypie-jsonschema.git"
+    "url": "git+https://github.com/node-tastypie/tastypie-jsonschema.git"
   },
   "keywords": [
     "tastypie",
@@ -21,9 +21,9 @@
   "author": "Eric Satterwhite <esatterwhite@wi.rr.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esatterwhite/tastypie-jsonschema/issues"
+    "url": "https://github.com/node-tastypie/tastypie-jsonschema/issues"
   },
-  "homepage": "https://github.com/esatterwhite/tastypie-jsonschema#readme",
+  "homepage": "https://github.com/node-tastypie/tastypie-jsonschema#readme",
   "peerDependencies": {
     "tastypie": ">=2.0.6 <4.0.0"
   },
